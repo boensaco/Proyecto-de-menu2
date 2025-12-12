@@ -1,0 +1,33 @@
+# 1. Verificar herramientas
+node --version
+npm --version
+mysql --version #instalar por su lado, o mariaDB 
+
+# 2. Crear estructura
+ # opcional, llamenlo como quieran
+cd blog-recetas # entren al nombre que crearon anteriormente
+mkdir backend
+cd backend
+mkdir src src/controllers src/models src/routes src/config
+cd ..
+mkdir frontend frontend/css frontend/js frontend/assets
+
+# 3. Inicializar backend
+cd backend
+npm init -y #ejecutar dentro de backend
+
+# 4. Instalar dependencias
+npm install express mysql2 cors dotenv
+npm install --save-dev nodemon
+
+# 5. Configurar scripts
+npm pkg set scripts.start="node src/app.js"
+npm pkg set scripts.dev="nodemon src/app.js"
+
+# 6. Verificar
+npm list --depth=0
+npm run
+
+# 7. Ejecutar servidor
+npm run dev
+

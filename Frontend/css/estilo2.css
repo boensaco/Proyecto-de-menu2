@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar .nav-link{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.navbar .nav-link:hover{
+    color: red;
+    text-decoration: underline color(srgb red green blue);
+}/*Hover genera el efecto a la letra o la selda de opcion*/
+/*Text-Decoration cita el Underline es para darle un subraye a la letra de opciones*/
+
+.final{
+    text-align: left;
+    background-color: black;
+}

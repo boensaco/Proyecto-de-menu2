@@ -1,0 +1,74 @@
+header{
+    background-color: black;
+}
+
+.navbar .nav-link{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.final{
+    text-align: left;
+    background-color: black;
+}
+
+.Formulario{
+    text-align: center;
+}
+
+.tabla{
+    text-align: center;
+    border-radius: 6px;
+}
+
+.color1{
+    background-color: black;
+    color: white;
+}
+
+.color2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.recuadro{
+    width: 60%;
+    margin-left: 10%;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seleccion{
+    margin-left: 10%;
+}
+
+.Genero{
+    text-align: center;
+}
+
+.Genero2{
+    margin-left: 43%;
+}
+
+.documento{
+    text-align: center;
+}
+
+.selector{
+    margin-left: 28%;
+}
+
+.selector2{
+    width: 36%;
+    border-radius: 6px;
+    border: 3px brown;
+}
+
+.boton{
+    margin-left: 40%;
+    background-color: brown;
+    width: 20%;
+}

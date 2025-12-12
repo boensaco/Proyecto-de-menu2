@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Sativa`Bogota</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilo3.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="../Logo/sativa.png" alt="Sativa´Bogota" width="150px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Eventos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Productos.html">Postres</a></li>
+                  <li><a class="dropdown-item" href="#">Prendas</a></li>
+                  <li><a class="dropdown-item" href="#">Mascotas</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <nav>
+    <div class="container mt-3">
+      <h2 class="tabla">TABLA DE CONTACTOS</h2>            
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Redes</th>
+            <th>Email</th>
+            <th>Numero de contacto</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td><a href="https://www.instagram.com/sativabogotaa/">@sativabogotaa</a></td>
+            <td><a href="https://www.facebook.com/share/1FWSBL5D27/?mibextid=qi2Omg">facebook</a></td>
+            <td>Sativabogota28@gmail.com</td>
+            <td>3044465254</td>
+          </tr>
+
+          <tr class="color1">
+            <td colspan="4" class="Formulario"><h3>Formulario de registro</h3></td>
+          </tr>
+          <tr class="color2">
+            <th colspan="4" class="Formulario1">
+        <label>Nombre</label>
+        <br>
+        <input class="recuadro" type="text" name="Nombre" placeholder="Primer nombre" required="true"> <!--Placeholder es para dejar una marca de agua-->
+        <br>
+
+        <label>Apellidos</label>
+        <br>
+        <input class="recuadro" type="text" name="Apellidos" placeholder="Primer apellido" required="true">
+        <br>
+
+        <label>Edad</label>
+        <br>
+        <input class="recuadro" type="date" name="Edad" placeholder="dd" min="5" max="70">
+        <br>
+
+        <label>Correo</label>
+        <br>
+        <input class="recuadro" type="email" name="Correo">
+        <br>
+        
+        <label>Contraseña</label>
+        <br> 
+        <input class="recuadro" type="password" name="Contraseña" placeholder="Mayor a 8 caracteres" required="true">
+        <br>
+
+        <label>Deja un comentario</label>
+        <br>
+        <textarea class="recuadro" name="Comentario" placeholder="Digite su Comentario"></textarea> 
+
+        <h3>Estudios Curzados</h3> 
+        <input class="seleccion" type="checkbox" name="Estudios"><label>Primaria</label><br> <!--Checkbox es para marcar en tipo cuadro-->
+        <input class="seleccion" type="checkbox" name="Estudios"><label>Basica Secundaria</label><br>
+        <input class="seleccion" type="checkbox" name="Estudios"><label>Universitario</label><br>
+
+        <h3 class="Genero">Genero</h3> 
+        <input class="Genero2" type="radio" name="Genero" value="Masculino"><label>Masculino</label> <!--Radio es para un circulo de seleccion-->
+        <input class="" type="radio" name="Genero" value="Femenino"><label>Femenino</label>
+
+        <h3 class="documento">Tipo de Documento</h3> 
+        <Select class="selector" name="Documento"> <!--Select es para generar una seleccion en lista-->
+            <option value="Cedula de Ciudadania">C.C.</option>
+            <option value="Cedula de Extrangeria">C.E.</option>
+            <option value="Targeta de Identidad">T.I.</option>
+            <input class="selector2" type="text">
+        </Select>
+        <br>
+        <br>
+
+        <input class="boton" type="submit" name="Registrar" value="Registrar"> <!--Submit es para crear el boton de registro-->
+
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </nav>
+</body>
+
+
+<footer class="final">
+  <div class="container p-1">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h3 class="text-uppercase" style="color: brown;">Sativa´Bogota</h3>
+        <p style="color: aliceblue;">
+         No pierdas la experiencia de digustar y crear un punto placentero a tu paladar,
+         siendo productos naturales traidos del campo, los cookies de cacao y cafe, son
+         parte de nuestra gran experiencias de nuestro trabajo echo para ustedes.
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase" style="color: brown;">SERVICIOS</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Eventos</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Comentarios</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Atencion al cliente</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Direccionamiento</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase" style="color: brown;">MIRANOS</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">INSTAGRAM</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">FACEBOOK</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+    © Sativa´Bogota:
+    <a style="color: brown;">Un postre para todos!</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+</html>
