@@ -43,6 +43,33 @@ class ProductoController {
             })
         }
     }
+
+    // POST - insertar un nuevo producto
+    static async insertarProducto(req, res) {
+        try {
+            const { nombre, descripcion, precio, categoria } = req.body
+
+            if (!nombre || !descripcion || !precio || !categoria) {
+                return res.status(400).json({
+                    success: false,
+                    error: "Todos los campos son requeridos"
+                })
+            }
+
+            const insertId = await Model.insertarProducto({ nombre, descripcion, precio, categoria })
+
+            res.status(201).json({
+                success: true,
+                message: "Producto insertado correctamente",
+                data: { id: insertId }
+            })
+        } catch (error) {
+            res.status(500).json({
+                success: false,
+                error: "Error al insertar el producto"
+            })
+        }
+    }
 }
 
 module.exports = ProductoController

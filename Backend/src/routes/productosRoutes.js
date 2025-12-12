@@ -7,4 +7,6 @@ router.get('/', ProductoController.obtenerProductos)
 
 router.get('/:id', ProductoController.obtenerPorId)
 
+router.post('/', ProductoController.insertarProducto)
+
 module.exports = router
